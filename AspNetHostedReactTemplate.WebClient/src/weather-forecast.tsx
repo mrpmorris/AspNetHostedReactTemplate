@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
 
 type WeatherForecast = {
    date: string | Date
@@ -31,7 +32,10 @@ function WeatherForecast() {
 
    return (
       <>
-         <h2>Weather Forecast</h2>
+         <h1>Weather Forecast</h1>
+         <p>
+            <Link to="/">Home</Link>
+         </p>
          {loading && <p>Loading...</p>}
          {error && <p style={{ color: 'red' }}>Error: {error}</p>}
          {!loading && !error && weather && (
