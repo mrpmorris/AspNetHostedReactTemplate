@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Project Path="AspNetHostedReactTemplate.AppHost/AspNetHostedReactTemplate.AppHost.csproj" />
+  <Project Path="AspNetHostedReactTemplate.ServiceDefaults/AspNetHostedReactTemplate.ServiceDefaults.csproj" />
+  <Project Path="AspNetHostedReactTemplate.WebClient/AspNetHostedReactTemplate.WebClient.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="AspNetHostedReactTemplate.WebServer/AspNetHostedReactTemplate.WebServer.csproj" />
+</Solution>
